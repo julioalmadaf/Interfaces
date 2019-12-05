@@ -1,0 +1,41 @@
+unsigned char temp;
+unsigned char contador=8;
+
+interrupt timer (void)
+{
+// apagar flag
+if (contador>1)
+	{
+	   temp>>=1;
+	   if (RxD) temp|=0x80;
+	   timer=104;
+	}
+else { //stop bit
+	data_ready=1;
+	//timer off	
+	//habilitar interrupcion faling_edge
+     }
+}
+interrupt falling_edge (void)
+{
+// apagar flag
+//timer on
+//habilitar interrupcion timer
+//deshabilitar interrupcion faling_edge
+timer=156;
+contador=9;
+}
+
+void virtual_UART_init(void)
+{
+	//configurar timer
+	data_ready=0;
+}
+
+void main (void)
+{
+unsigned char dato;
+
+   virtual_UART_init();
+   dato=virtual_UART_receive();
+}

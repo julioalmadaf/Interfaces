@@ -1,0 +1,33 @@
+void virtual_UART_init(void)
+{
+	//configurar timer
+
+}
+unsigned char virtual_UART_receive(void)
+{
+unsigned char temp;
+unsigned char contador=8;
+
+do{}while (RxD==1);
+//timer on
+do{} while (timer!=156); //suponiendo 156 us (9600 bps, un bit y medio)
+timer_flag=0;
+do{
+	temp>>=1;
+	if (RxD==1) temp|=0x80;  //0b1000 0000
+	//else temp&=0x7F;	//0b0111 1111
+	
+	do{} while (timer!=104); //suponiendo 104 us (tbit)
+	timer_flag=0;
+}while (--contador);
+if (RxD==1) data_ready=1;
+
+return temp;
+}
+void main (void)
+{
+unsigned char dato;
+
+   virtual_UART_init();
+   dato=virtual_UART_receive();
+}
