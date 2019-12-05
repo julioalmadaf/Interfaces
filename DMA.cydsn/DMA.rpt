@@ -1,0 +1,373 @@
+Loading plugins phase: Elapsed time ==> 0s.115ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\DMA.cyprj -d CY8C4248LQI-BL583 -s C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+ADD: sdb.M0065: information: Analog terminal "ADC_SAR_Seq_1.vinMinus3" on TopDesign is unconnected.
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Signal: Net_168)
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Shape_30.38)
+
+ADD: sdb.M0065: information: Analog terminal "ADC_SAR_Seq_1.vinPlus3" on TopDesign is unconnected.
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Signal: Net_169)
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Shape_30.37)
+
+ADD: sdb.M0065: information: Analog terminal "ADC_SAR_Seq_1.vinMinus2" on TopDesign is unconnected.
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Signal: Net_170)
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Shape_30.36)
+
+ADD: sdb.M0065: information: Analog terminal "ADC_SAR_Seq_1.vinPlus2" on TopDesign is unconnected.
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Signal: Net_171)
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Shape_30.35)
+
+ADD: sdb.M0065: information: Analog terminal "ADC_SAR_Seq_1.vinMinus1" on TopDesign is unconnected.
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Signal: Net_172)
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Shape_30.34)
+
+ADD: sdb.M0065: information: Analog terminal "ADC_SAR_Seq_1.vinPlus1" on TopDesign is unconnected.
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Signal: Net_173)
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Shape_30.33)
+
+ADD: sdb.M0065: information: Analog terminal "ADC_SAR_Seq_1.vinMinus0" on TopDesign is unconnected.
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Signal: Net_174)
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Shape_30.32)
+
+ADD: sdb.M0065: information: Analog terminal "ADC_SAR_Seq_1.vinPlus0" on TopDesign is unconnected.
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Signal: Net_175)
+ * C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\TopDesign\TopDesign.cysch (Shape_30.31)
+
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 1s.301ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.057ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  DMA.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\DMA.cyprj -dcpsoc3 DMA.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  DMA.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\DMA.cyprj -dcpsoc3 DMA.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  DMA.v
+Program  :   vlogfe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\DMA.cyprj -dcpsoc3 -verilog DMA.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Sat Apr 21 19:26:08 2018
+
+
+======================================================================
+Compiling:  DMA.v
+Program  :   vpp
+Options  :    -yv2 -q10 DMA.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Sat Apr 21 19:26:08 2018
+
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Bus_Connect_v2_50.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file 'DMA.ctl'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  DMA.v
+Program  :   tovif
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\DMA.cyprj -dcpsoc3 -verilog DMA.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Sat Apr 21 19:26:09 2018
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\codegentemp\DMA.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\codegentemp\DMA.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Bus_Connect_v2_50.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  DMA.v
+Program  :   topld
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\DMA.cyprj -dcpsoc3 -verilog DMA.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Sat Apr 21 19:26:09 2018
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\codegentemp\DMA.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\codegentemp\DMA.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Bus_Connect_v2_50.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+    User names
+	\ADC_SAR_Seq_1:Net_3125\
+	\ADC_SAR_Seq_1:Net_3126\
+
+
+Deleted 2 User equations/components.
+Deleted 0 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \ADC_SAR_Seq_1:Net_3106\ to \ADC_SAR_Seq_1:Net_3107\
+Aliasing \ADC_SAR_Seq_1:Net_3105\ to \ADC_SAR_Seq_1:Net_3107\
+Aliasing \ADC_SAR_Seq_1:Net_3104\ to \ADC_SAR_Seq_1:Net_3107\
+Aliasing \ADC_SAR_Seq_1:Net_3103\ to \ADC_SAR_Seq_1:Net_3107\
+Aliasing \ADC_SAR_Seq_1:Net_3207_1\ to \ADC_SAR_Seq_1:Net_3107\
+Aliasing \ADC_SAR_Seq_1:Net_3207_0\ to \ADC_SAR_Seq_1:Net_3107\
+Aliasing \ADC_SAR_Seq_1:Net_3235\ to \ADC_SAR_Seq_1:Net_3107\
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3106\[82] = \ADC_SAR_Seq_1:Net_3107\[81]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3105\[83] = \ADC_SAR_Seq_1:Net_3107\[81]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3104\[84] = \ADC_SAR_Seq_1:Net_3107\[81]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3103\[85] = \ADC_SAR_Seq_1:Net_3107\[81]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_17\[134] = \ADC_SAR_Seq_1:Net_1845\[5]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3207_1\[155] = \ADC_SAR_Seq_1:Net_3107\[81]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3207_0\[156] = \ADC_SAR_Seq_1:Net_3107\[81]
+Removing Lhs of wire \ADC_SAR_Seq_1:Net_3235\[157] = \ADC_SAR_Seq_1:Net_3107\[81]
+
+------------------------------------------------------
+Aliased 0 equations, 8 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+topld:  No errors.
+
+CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp
+Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\warp\bin\warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\DMA.cyprj" -dcpsoc3 DMA.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 0s.393ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V4.1.0.3210, Family: PSoC3, Started at: Saturday, 21 April 2018 19:26:09
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\DMA.cyprj -d CY8C4248LQI-BL583 DMA.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.009ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech Mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+    Fixed Function Clock 6: Automatic-assigning  clock 'ADC_SAR_Seq_1_intClock'. Signal=\ADC_SAR_Seq_1:Net_1845_ff6\
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+</CYPRESSTAG>
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+
+    ------------------------------------------------------------
+    DRQ listing
+    ------------------------------------------------------------
+
+    drqcell: Name =DMA_1
+        PORT MAP (
+            dmareq => Net_149 ,
+            termout => Net_54 );
+        Properties:
+        {
+            priority = "11"
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+
+    ------------------------------------------------------------
+    Interrupt listing
+    ------------------------------------------------------------
+
+    interrupt: Name =\ADC_SAR_Seq_1:IRQ\
+        PORT MAP (
+            interrupt => \ADC_SAR_Seq_1:Net_3112\ );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+
+    interrupt: Name =isr_1
+        PORT MAP (
+            interrupt => Net_54 );
+        Properties:
+        {
+            int_type = "10"
+            is_nmi = 0
+        }
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+Resource Type                 : Used : Free :  Max :  % Used
+============================================================
+Digital Clocks                :    0 :    4 :    4 :  0.00 %
+Interrupts                    :    2 :   30 :   32 :  6.25 %
+IO                            :    4 :   34 :   38 : 10.53 %
+Segment LCD                   :    0 :    1 :    1 :  0.00 %
+CapSense                      :    0 :    1 :    1 :  0.00 %
+Die Temp                      :    0 :    1 :    1 :  0.00 %
+Serial Communication (SCB)    :    0 :    2 :    2 :  0.00 %
+BLE                           :    0 :    1 :    1 :  0.00 %
+DMA Channels                  :    1 :    7 :    8 : 12.50 %
+Timer/Counter/PWM             :    0 :    4 :    4 :  0.00 %
+UDB                           :      :      :      :        
+  Macrocells                  :    0 :   32 :   32 :  0.00 %
+  Unique P-terms              :    0 :   64 :   64 :  0.00 %
+  Total P-terms               :    0 :      :      :        
+  Datapath Cells              :    0 :    4 :    4 :  0.00 %
+  Status Cells                :    0 :    4 :    4 :  0.00 %
+  Control Cells               :    0 :    4 :    4 :  0.00 %
+Comparator/Opamp              :    0 :    4 :    4 :  0.00 %
+LP Comparator                 :    0 :    2 :    2 :  0.00 %
+SAR ADC                       :    1 :    0 :    1 : 100.00 %
+DAC                           :      :      :      :        
+  7-bit IDAC                  :    0 :    1 :    1 :  0.00 %
+  8-bit IDAC                  :    0 :    1 :    1 :  0.00 %
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.008ms
+Tech Mapping phase: Elapsed time ==> 0s.028ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+<CYPRESSTAG name="FFB & IO Pre Placement">
+<CYPRESSTAG name="Placement" icon="FILE_RPT_PLACEMENT">
+
+Cell                                : Block                              
+=========================================================================
+ClockGenBlock                       : CLK_GEN_[FFB(CLK_GEN,0)]           
+\ADC_SAR_Seq_1:cy_psoc4_sar\        : SARADC_[FFB(SARADC,0)]             
+
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Real Analog Placement">
+Error: apr.M0032: Net "Net_175" is connected to an analog mux but is not connected to another component. (App=cydsfit)
+Analog Placement phase: Elapsed time ==> 0s.283ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.143ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 0s.540ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 0s.540ms
+Fitter phase: Elapsed time ==> 0s.000ms
+Dependency generation phase: Elapsed time ==> 0s.023ms
+Cleanup phase: Elapsed time ==> 0s.000ms

@@ -1,0 +1,12 @@
+C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\GSM.cydsn\GSM.cyprj|63eac05c-2158-45e6-93d9-7741e4537f17
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|39f5b6b9-1bf6-4a9a-9360-472c8295eda6
+C:\Users\jcaf9\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|8da402f5-c8f9-4ebc-91b3-1f502dbb04f2
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|85be9c98-88ce-4aa8-9a1f-22579d1ffcfc
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|22a9cee6-60ef-4813-9648-68f69a5b8bd0
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|0d4ee80b-4d44-4971-9a4d-edfddcf8de21
+C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\Proyecto.cydsn\Proyecto.cyprj|f4291da6-c342-47cd-8e47-5cc55d6151ee
+C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\GPS.cydsn\GPS.cyprj|d70ac1d7-e3a9-4d7c-9753-db1d5bd923eb
+C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\ModuloSD.cydsn\ModuloSD.cyprj|23b8e091-2e64-4efc-98c7-bdb77cf49d5c
+C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\WIFI.cydsn\WIFI.cyprj|859ef3f3-d05f-4e8e-99cd-10803189aa14
+C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\DMA.cydsn\DMA.cyprj|39f0d56e-9515-4cc1-8d97-9e629d28134e
+C:\Users\jcaf9\Documents\PSoC Creator\Interfaces\MotorSteps.cydsn\MotorSteps.cyprj|2e6897c5-647d-4907-950c-652d45249240
